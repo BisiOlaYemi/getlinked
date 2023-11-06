@@ -1,0 +1,59 @@
+.contact {
+    max-height: 100%;
+    color: #fff;
+}
+
+.h2 {
+    font-family: "Clash Display", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39.36px;
+    color: #d434fe;
+}
+
+.contact-info ul {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    size: 16px;
+    line-height: 19.5px;
+}
+
+.share {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    size: 16px;
+    line-height: 19.5px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the container cover the entire viewport height */
+  }
+
+@media(max-width: 768px) {
+    .contact {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-info {
+        display: none;
+    }
+    .contact-txt {
+        display: none;
+    }
+}
+
+@media(max-width: 920px){
+    .contact {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-info {
+        display: none;
+    }
+    .contact-txt {
+        display: none;
+    }
+}

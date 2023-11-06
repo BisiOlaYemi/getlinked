@@ -1,0 +1,34 @@
+.faq-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27.5px;
+    width: 350px;
+    margin-bottom: 12%;
+}
+
+.faq-p>span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+@media (max-width: 768px) {
+    .faq-p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .accord {
+        margin-bottom: 5%;
+    }
+    .faq-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin: 0 auto;
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+}
