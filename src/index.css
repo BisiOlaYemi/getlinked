@@ -6,7 +6,7 @@ body {
   background-color: #150E28 !important; 
 }
 
-/* body::before {
+body::before {
   content: "";
   position: absolute;
   top: 0;
@@ -64,4 +64,4 @@ body::after {
     left: 0;
     z-index: 2; 
     opacity: 0.5; 
-  } */
+  }
